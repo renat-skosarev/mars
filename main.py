@@ -2,7 +2,7 @@ from flask import Flask, render_template, redirect
 from data import db_session
 from data.users import User
 from data.news import News
-from lesson.loginform import LoginForm
+from loginform import LoginForm
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
